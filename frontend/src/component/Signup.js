@@ -359,15 +359,15 @@ const Login = (props) => {
               }
               else if(event.target.value !== ""){
                   if(/^[a-zA-Z]+$/.test(event.target.value)){
-                    handleInputError("email", false, "");
+                    handleInputError("name", false, "");
                   }
                   else{
-                    handleInputError("email", true, "Only alphabets are allowed in the login name.");
+                    handleInputError("name", true, "Only alphabets are allowed in the login name.");
                   }
               }
-              else {
-                handleInputError("name", false, "");
-              }
+              // else {
+              //   handleInputError("name", false, "");
+              // }
             }}
             variant="outlined"
           />
