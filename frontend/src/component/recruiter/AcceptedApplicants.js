@@ -586,6 +586,9 @@ const ApplicationTile = (props) => {
               className={classes.statusBlock}
               style={{
                 background: "#09BC8A",
+                width : "169px",
+                marginTop: "109px",
+                height: "47px"
               }}
               onClick={() => {
                 setOpenEndJob(true);

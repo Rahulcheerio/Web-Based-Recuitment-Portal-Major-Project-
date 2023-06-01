@@ -277,24 +277,24 @@ const Profile = (props) => {
                 />
               </Grid>
               <Grid item>
-                <FileUploadInput
+                {/* <FileUploadInput
                   className={classes.inputBox}
                   label="Resume (.pdf)"
                   icon={<DescriptionIcon />}
                   uploadTo={apiList.uploadResume}
                   handleInput={handleInput}
                   identifier={"resume"}
-                />
+                /> */}
               </Grid>
               <Grid item>
-                <FileUploadInput
+                {/* <FileUploadInput
                   className={classes.inputBox}
                   label="Profile Photo (.jpg/.png)"
                   icon={<FaceIcon />}
                   uploadTo={apiList.uploadProfileImage}
                   handleInput={handleInput}
                   identifier={"profile"}
-                />
+                /> */}
               </Grid>
             </Grid>
             <Button
