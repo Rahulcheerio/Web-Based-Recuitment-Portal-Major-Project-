@@ -358,7 +358,8 @@ const Login = (props) => {
                 handleInputError("name", true, "Name is required");
               }
               else if(event.target.value !== ""){
-                  if(/^[a-zA-Z]+$/.test(event.target.value)){
+                  let name = event.target.value.trim();
+                  if(/^[A-Za-z ]+$/.test(name)){
                     handleInputError("name", false, "");
                   }
                   else{
@@ -418,7 +419,7 @@ const Login = (props) => {
               />
             </Grid>
             <Grid item>
-              <FileUploadInput
+              {/* <FileUploadInput
                 className={classes.inputBox}
                 label="Resume (.pdf)"
                 icon={<DescriptionIcon />}
@@ -432,10 +433,10 @@ const Login = (props) => {
                 uploadTo={apiList.uploadResume}
                 handleInput={handleInput}
                 identifier={"resume"}
-              />
+              /> */}
             </Grid>
             <Grid item>
-              <FileUploadInput
+              {/* <FileUploadInput
                 className={classes.inputBox}
                 label="Profile Photo (.jpg/.png)"
                 icon={<FaceIcon />}
@@ -449,7 +450,7 @@ const Login = (props) => {
                 uploadTo={apiList.uploadProfileImage}
                 handleInput={handleInput}
                 identifier={"profile"}
-              />
+              /> */}
             </Grid>
           </>
         ) : (
