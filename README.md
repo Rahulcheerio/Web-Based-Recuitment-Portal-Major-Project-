@@ -1,39 +1,140 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
 
-Available Scripts
-In the project directory, you can run:
+# Project Title
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+A brief description of what this project does and who it's for
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+## API Reference
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Get all items
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+```http
+  GET /api/items
+```
 
-See the section about deployment for more information.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-npm run eject
-Note: this is a one-way operation. Once you eject, you can’t go back!
+#### Get item
 
-If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+```http
+  GET /api/items/${id}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### add(num1, num2)
 
-Learn More
-You can learn more in the Create React App documentation.
+Takes two numbers and returns the sum.
 
-To learn React, check out the React documentation.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Go to the Backend directory
+
+```bash
+  cd backend
+```
+
+Install dependencies
+
+```bash
+  npm install --force
+```
+
+Start the Backend
+
+```bash
+  npm start
+```
+
+Go to the Frontend directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  npm install --force
+```
+
+Start the Frontend
+
+```bash
+  npm start
+```
+
+## Appendix
+
+Any additional information goes here
+
+
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+- [@octokatherine](https://www.github.com/octokatherine)
+- [@octokatherine](https://www.github.com/octokatherine)
+- [@octokatherine](https://www.github.com/octokatherine)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Demo
+
+Insert gif or link to demo
+https://drive.google.com/file/d/1yqp7z0d_bGCXeuOSulhgNdfzskjh3YNX/view?usp=share_link
+## FAQ
+
+#### Question 1
+
+Answer 1
+
+#### Question 2
+
+Answer 2
+
+
+## Tech Stack
+
+**Client:** React, Bootstrap 
+
+**Server:** Node, Express
+
+**Database:** MongoDB 
+
+**State_Management** Redux ,Context API
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Optimizations
+
+What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+
