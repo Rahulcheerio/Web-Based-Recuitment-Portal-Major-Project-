@@ -130,8 +130,17 @@ Answer 2
 
 
 ## Screenshots
+` Welcome Page `
+![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/72055c36-66ea-4549-87f3-40423af92162)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+` Add Jobs Page `
+![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/b259723d-a1df-4923-afbb-30d1ce10f4df)
+
+` Filter on Jobs Added `
+![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/367eaead-cab3-4084-8ce3-f7c5cebb3e96)
+
+`Realtime Code Editor`
+![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/093324c4-91ab-455c-be5b-4e97a0fadbcb)
 
 
 ## Optimizations
