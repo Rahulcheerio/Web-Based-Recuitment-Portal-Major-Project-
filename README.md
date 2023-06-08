@@ -1,8 +1,6 @@
 
 # Project Title
-
-A brief description of what this project does and who it's for
-
+Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
 
 ## API Reference
 
@@ -81,42 +79,16 @@ Start the Frontend
   npm start
 ```
 
-## Appendix
-
-Any additional information goes here
-
-
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
-- [@octokatherine](https://www.github.com/octokatherine)
-- [@octokatherine](https://www.github.com/octokatherine)
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
+- [@Rahulcheerio](https://github.com/Rahulcheerio)
+- [@prabhatgupta23](https://github.com/prabhatgupta23)
+- [@Parth-Dingliwal](https://github.com/Parth-Dingliwal)
 
 ## Demo
 
-Insert gif or link to demo
+Link to demo
 https://drive.google.com/file/d/1yqp7z0d_bGCXeuOSulhgNdfzskjh3YNX/view?usp=share_link
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
 
 ## Tech Stack
 
@@ -128,22 +100,28 @@ Answer 2
 
 **State_Management** Redux ,Context API
 
+**Realtime** Socket.IO
 
 ## Screenshots
-` Welcome Page `
+                                                             ` Welcome Page `
 ![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/72055c36-66ea-4549-87f3-40423af92162)
 
-` Add Jobs Page `
+                                                             ` Add Jobs Page `
 ![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/b259723d-a1df-4923-afbb-30d1ce10f4df)
 
-` Filter on Jobs Added `
+                                                           ` Filter on Jobs Added `
 ![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/367eaead-cab3-4084-8ce3-f7c5cebb3e96)
 
-`Realtime Code Editor`
+                                                            `Realtime Code Editor`
 ![image](https://github.com/Rahulcheerio/Web-Based-Recuitment-Portal-Major-Project-/assets/124549131/093324c4-91ab-455c-be5b-4e97a0fadbcb)
 
-
 ## Optimizations
+Improved the functionality of website using indexing on backend , pagination , lazy-loading .
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+## Contributing
 
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
