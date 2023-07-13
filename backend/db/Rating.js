@@ -18,7 +18,7 @@ let schema = new mongoose.Schema(
     rating: {
       type: Number,
       max: 5.0,
-      default: -1.0,
+      default: 1.0,
       validate: {
         validator: function (v) {
           return v >= -1.0 && v <= 5.0;

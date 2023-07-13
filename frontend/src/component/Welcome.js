@@ -10,9 +10,14 @@ const Welcome = (props) => {
       justify="center"
       style={{ padding: "30px", minHeight: "93vh" }}
     >
-      <Grid item>
+      <Grid item style={{
+        marginTop:"-90px"
+      }}>
         <Typography variant="h2">Welcome to Job Portal</Typography>
       </Grid>
+      <img src="download.jpg" alt="image" style={{
+        marginTop: "50px"
+      }}></img>
     </Grid>
   );
 };

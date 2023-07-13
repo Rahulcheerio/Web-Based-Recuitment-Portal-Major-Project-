@@ -41,12 +41,15 @@ const Navbar = (props) => {
         <Typography variant="h6" className={classes.title}>
           Job Portal
         </Typography>
-        <Button color="inherit" onClick={handleClickOpen}>
+        {/* <Button color="inherit" onClick={handleClickOpen}>
            Code-Editor
-        </Button>
+        </Button> */}
         {isAuth() ? (
           userType() === "recruiter" ? (
             <>
+              <Button color="inherit" onClick={handleClickOpen}>
+                Code-Editor
+              </Button>
               <Button color="inherit" onClick={() => handleClick("/home")}>
                 Home
               </Button>
@@ -68,6 +71,9 @@ const Navbar = (props) => {
             </>
           ) : (
             <>
+              <Button color="inherit" onClick={handleClickOpen}>
+                Code-Editor
+              </Button>
               <Button color="inherit" onClick={() => handleClick("/home")}>
                 Home
               </Button>
